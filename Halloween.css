@@ -1,0 +1,34 @@
+body{
+    background-image: url(Better\ Spooky.png);
+    background-size: cover;
+}
+div{
+    text-align: center;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spooky{
+    color: orange;
+    font-family: "Creepster", cursive;
+    text-align: center;
+    font-size: 550%;
+    text-shadow:1px 1px 10px yellow, 1px 1px 10px yellow;
+}
+.Rotate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 30%;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+  }
