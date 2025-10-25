@@ -8,7 +8,8 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    width:auto;
 }
 .Spooky{
     color: orange;
@@ -21,7 +22,6 @@ div{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
     width: 30%;
     animation: rotation 2s infinite linear;
 }
@@ -34,3 +34,4 @@ div{
   }
 
   }
+
